@@ -30,7 +30,11 @@ var MDB = (function () {
 	};
 	var search = function (DBcode, Index="all", Data="all") {
 		var casper = JSON.parse(xhr.get("https://api.myjson.com/bins/" + DBcode));
-		
+		if(Index=="all") {
+			
+		} else {
+			
+		}
 		return;
 	};
 
